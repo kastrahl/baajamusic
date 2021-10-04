@@ -11,9 +11,11 @@ client = commands.Bot(command_prefix='..',intents =discord.Intents.all())
 
 for i in range(len(cogs)):
   cogs[i].setup(client)
-  
+
+status = cycle(["watching hentai","rolling a blunt","organising stick measuring contest","cooking chicken","simpin around","horsing around","lickin kfc buckets","listening phonk" , "helping prince of nigeria","sending booty pics"])
+
 #cycling list of statuses 
-status = cycle(["reading","coding","gaming","cooking chicken","simpin around"])
+
 
 #starting the bot change cycle 
 @client.event
