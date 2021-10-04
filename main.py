@@ -12,7 +12,7 @@ client = commands.Bot(command_prefix='..',intents =discord.Intents.all())
 for i in range(len(cogs)):
   cogs[i].setup(client)
 
-status = cycle(["reading","coding","gaming","cooking chicken","simpin around"])
+status = cycle(["watching hentai","rolling a blunt","organising stick measuring contest","cooking chicken","simpin around","horsing around","lickin kfc buckets","listening phonk" , "helping prince of nigeria","sending booty pics"])
 
 @client.event
 async def on_ready():
