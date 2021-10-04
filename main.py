@@ -1,3 +1,4 @@
+import os
 import discord
 from discord.ext import commands ,tasks
 import music 
@@ -23,5 +24,6 @@ async def change_status():
   await client.change_presence(activity=discord.Game(next(status)))
 
 keep_alive()
+my_secret = os.environ['token']
+client.run(my_secret)
 
-client.run("ODk0NTA3MTcwNjAxNzc5MjMw.YVrAuA.A_M2oktwM4o5_ucGsjBbF7erqpk")
